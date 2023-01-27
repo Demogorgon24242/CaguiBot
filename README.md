@@ -59,8 +59,8 @@ Run python file
 
 Go to ngrok.io (after creating and setting up the software)
 
-'''
+```
 	ngrok http (app.server.py port destination)
-'''
+```
 
 ## Note :- This is for testing only not for deployment
