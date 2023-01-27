@@ -1,6 +1,6 @@
 # CaguiBot
 
-This Telegram Bot was constucted by me and @KuberVajpayee for the Smart India Hackathon 2022 Finale. 
+This Telegram Bot was constucted by me and Kuber Vajpayee(https://github.com/kuber2001) for the Smart India Hackathon 2022 Finale. 
 It contains code for the deployed Flask server of the Telegram CaguiBot. The conversational AI integrated
 with our CaGui App to provide AI based counselling for high school students.
 
@@ -60,7 +60,7 @@ Run python file
 Go to ngrok.io (after creating and setting up the software)
 
 ```
-	ngrok http (app.server.py port destination)
+  ngrok http (app.server.py port destination)
 ```
 
 ## Note :- This is for testing only not for deployment
