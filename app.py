@@ -10,7 +10,7 @@ from firebase_admin import firestore
 
 
 # try:
-#     cred = credentials.Certificate("trial_python_firebase_key.json")
+#     cred = credentials.Certificate("firebase_key.json")
 #     firebase_admin.initialize_app(cred)
     
 #     print("No problems")
@@ -29,7 +29,7 @@ app = flask.Flask(__name__)
 
 # required for news api
 def news_res():
-    api = NewsDataApiClient(apikey="pub_1034580203e2005dacfe32d02bdb963bbd50b")
+    api = NewsDataApiClient(apikey="##")
     response = api.news_api(q="exams", country="in")
     
     arr=[]
@@ -60,7 +60,7 @@ def url_call_notes(dat) :
 
 # required for search query execution
 def search_query(query):
-    api_key ="AIzaSyD-s6c8af0iuActMEPZcjp5e5aJ7IQ7wBw" # api key got from kuber for google custom search api
+    api_key ="##" # api key for google custom search api
     resource = build('customsearch','v1',developerKey=api_key).cse()
     result=""
     i=0
